@@ -3,12 +3,12 @@
     <TargetFramework>net10.0</TargetFramework>
 
     <!-- Metadata -->
-    <PackageId>FuzzySharp.Net</PackageId>
+    <PackageId>FuzzyScore.Net</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Description>A .NET port of the Apache Commons Text FuzzyScore algorithm</Description>
     <Authors>RudraPatel2003</Authors>
     <Company>RudraPatel2003</Company>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/RudraPatel2003/dotnet-fuzzy-score</PackageProjectUrl>
     <PackageTags>FuzzyScore;Fuzzy;Algorithm;Apache Commons;Text Similarity</PackageTags>
     <RepositoryUrl>https://github.com/RudraPatel2003/dotnet-fuzzy-score</RepositoryUrl>
