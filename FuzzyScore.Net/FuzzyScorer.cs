@@ -2,7 +2,7 @@
 
 namespace FuzzyScore.Net;
 
-public static class FuzzyScore
+public static class FuzzyScorer
 {
     /// <summary>
     /// Computes a fuzzy similarity score between a target <paramref name="term"/>
