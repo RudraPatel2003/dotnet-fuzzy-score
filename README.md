@@ -1,4 +1,9 @@
-# dotnet-fuzzy-score
+<h1 align="center">
+  <br>
+    <img src="assets/repository-banner.png" alt="Repository Banner" width="25%">  
+  <br>
+    FuzzyScore.Net
+</h1>
 
 This NuGet package ports the [Apache Commons FuzzyScore text similarity algorithm](https://commons.apache.org/proper/commons-text/apidocs/org/apache/commons/text/similarity/FuzzyScore.html) to .NET
 
