@@ -2,18 +2,10 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
 
-    <!-- Metadata -->
-    <PackageId>FuzzySharp.Net</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
-    <Description>A .NET port of the Apache Commons Text FuzzyScore algorithm</Description>
-    <Authors>RudraPatel2003</Authors>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/RudraPatel2003/dotnet-fuzzy-score</PackageProjectUrl>
-    <PackageTags>FuzzyScore;Fuzzy;Algorithm;Apache Commons;Text Similarity</PackageTags>
-    <RepositoryUrl>https://github.com/RudraPatel2003/dotnet-fuzzy-score</RepositoryUrl>
-
     <!-- Configuration -->
+    <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -21,9 +13,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
     <PackageReference Include="CSharpier.MsBuild" Version="1.2.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.0" />
+    <PackageReference Include="NUnit" Version="4.3.2" />
+    <PackageReference Include="NUnit.Analyzers" Version="4.7.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="NUnit.Framework" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FuzzyScore.Net\FuzzyScore.Net.csproj" />
   </ItemGroup>
 </Project>
