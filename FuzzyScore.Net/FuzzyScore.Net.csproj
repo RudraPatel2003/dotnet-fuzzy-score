@@ -8,7 +8,7 @@
     <Description>A .NET port of the Apache Commons Text FuzzyScore algorithm</Description>
     <Authors>RudraPatel2003</Authors>
     <Company>RudraPatel2003</Company>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/RudraPatel2003/dotnet-fuzzy-score</PackageProjectUrl>
     <PackageTags>FuzzyScore;Fuzzy;Algorithm;Apache Commons;Text Similarity</PackageTags>
     <RepositoryUrl>https://github.com/RudraPatel2003/dotnet-fuzzy-score</RepositoryUrl>
