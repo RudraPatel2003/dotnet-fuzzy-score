@@ -4,7 +4,7 @@
 
     <!-- Metadata -->
     <PackageId>FuzzyScore.Net</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
     <Description>A .NET port of the Apache Commons Text FuzzyScore algorithm</Description>
     <Authors>RudraPatel2003</Authors>
     <Company>RudraPatel2003</Company>

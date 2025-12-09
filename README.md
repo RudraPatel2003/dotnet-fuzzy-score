@@ -29,7 +29,7 @@ using FuzzyScore.Net;
 string term = "Workshop";
 string query = "wo";
 
-int score = FuzzyScore.Score(term, query);
+int score = FuzzyScorer.Score(term, query);
 
 Console.WriteLine($"The score for '{term}' and '{query}' is {score}.");
 ```
