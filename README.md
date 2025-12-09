@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="assets/repository-banner.png" alt="Repository Banner" width="25%">  
+    <img src="https://github.com/RudraPatel2003/dotnet-fuzzy-score/blob/main/assets/repository-banner.png" alt="Repository Banner" width="25%">  
   <br>
     FuzzyScore.Net
 </h1>
