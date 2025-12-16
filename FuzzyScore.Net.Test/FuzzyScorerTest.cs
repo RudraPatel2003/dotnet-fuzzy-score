@@ -2,7 +2,7 @@
 
 namespace FuzzyScore.Net.Test;
 
-public class Tests
+public class FuzzyScorerTest
 {
     [Test]
     public void NullQueryThrows()
