@@ -37,19 +37,19 @@ public static class FuzzyScorer
     /// prior to scoring.
     /// </para>
     ///
-    /// <para><b>Examples (from Apache Commons FuzzyScore):</b></para>
+    /// <para><b>Examples:</b></para>
     /// <example>
     /// <code>
-    /// Score(null, null)                           = throws ArgumentNullException
-    /// Score("not null", null)                     = throws ArgumentNullException
-    /// Score(null, "not null")                     = throws ArgumentNullException
-    /// Score("", "")                               = 0
-    /// Score("Workshop", "b")                      = 0
-    /// Score("Room", "o")                          = 1
-    /// Score("Workshop", "w")                      = 1
-    /// Score("Workshop", "ws")                     = 2
-    /// Score("Workshop", "wo")                     = 4
-    /// Score("Apache Software Foundation", "asf")  = 3
+    /// FuzzyScorer.Score(null, null)                           = throws ArgumentNullException
+    /// FuzzyScorer.Score("not null", null)                     = throws ArgumentNullException
+    /// FuzzyScorer.Score(null, "not null")                     = throws ArgumentNullException
+    /// FuzzyScorer.Score("", "")                               = 0
+    /// FuzzyScorer.Score("Workshop", "b")                      = 0
+    /// FuzzyScorer.Score("Room", "o")                          = 1
+    /// FuzzyScorer.Score("Workshop", "w")                      = 1
+    /// FuzzyScorer.Score("Workshop", "ws")                     = 2
+    /// FuzzyScorer.Score("Workshop", "wo")                     = 4
+    /// FuzzyScorer.Score("Apache Software Foundation", "asf")  = 3
     /// </code>
     /// </example>
     /// </remarks>
@@ -78,7 +78,7 @@ public static class FuzzyScorer
         {
             throw new ArgumentNullException(
                 nameof(term),
-                "The term passed into FuzzyScore.Score(term, query) cannot be null."
+                "The term passed into FuzzyScorer.Score(term, query) cannot be null."
             );
         }
 
@@ -86,7 +86,7 @@ public static class FuzzyScorer
         {
             throw new ArgumentNullException(
                 nameof(query),
-                "The query passed into FuzzyScore.Score(term, query) cannot be null."
+                "The query passed into FuzzyScorer.Score(term, query) cannot be null."
             );
         }
 
